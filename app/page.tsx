@@ -1,13 +1,19 @@
-import HeroSection from "./sections/heroSection/page";
-import AboutSection from "./sections/aboutSection/page";
-import ExampleSection from "./sections/exampleSection/page";
+import EducationSection from "./sections/Education/page";
+import FamilySection from "./sections/Family/page";
+import LiteratureSection from "./sections/Literature/page";
+import LovelifeSection from "./sections/Lovelife/page";
+import TimelineSection from "./sections/Timeline/page";
+import TravelsSection from "./sections/Travels/page";
 
 export default function Home() {
   return (
     <>
-      <HeroSection />
-      <AboutSection />
-      <ExampleSection />
+      <FamilySection />
+      <LovelifeSection />
+      <LiteratureSection />
+      <TimelineSection />
+      <EducationSection />
+      <TravelsSection />
     </>
   );
 }

@@ -6,7 +6,7 @@ import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
-import { ThemeSwitch } from "@/components/theme-switch";
+
 export const metadata: Metadata = {
   title: {
     default: siteConfig.name,
@@ -48,7 +48,7 @@ export default function RootLayout({
             <main className="min-h-screen h-full w-full flex-1">
               {children}
             </main>
-            <ThemeSwitch />
+
             <footer className=" w-full flex justify-center h-36 bg-white/20">
               <Link
                 isExternal

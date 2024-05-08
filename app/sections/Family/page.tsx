@@ -14,7 +14,7 @@ function Family() {
     >
       <div className="absolute inset-0 z-40">
         <Image
-          src={"/assets/test.gif"}
+          src={"/assets/gif-rizal.gif"}
           layout={"fill"}
           objectFit={"cover"}
           alt={`A cute animal!`}

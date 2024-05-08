@@ -1,40 +1,50 @@
+"use client";
 import {
   Navbar as NextUINavbar,
   NavbarContent,
-  NavbarMenu,
-  NavbarMenuToggle,
-  NavbarBrand,
   NavbarItem,
-  NavbarMenuItem,
 } from "@nextui-org/navbar";
-
-import { link as linkStyles } from "@nextui-org/theme";
-
+import { useActiveSectionContext } from "@/context/active-section-context";
 import { siteConfig } from "@/config/site";
-import NextLink from "next/link";
-import clsx from "clsx";
-
-export const Navbar = () => {
+import { links } from "@/lib/data";
+import Link from "next/link";
+import Image from "next/image";
+export default function Navbar() {
+  const { activeSection, setActiveSection, setTimeOfLastClick } =
+    useActiveSectionContext();
   return (
-    <NextUINavbar className="bg-blue-700" maxWidth="xl">
-      <NavbarContent className="basis-1/5 sm:basis-full" justify="center">
-        <NavbarBrand as="li" className="gap-3 max-w-fit"></NavbarBrand>
-        <ul className="hidden lg:flex justify-around w-full  ml-2">
-          <div className="flex gap-x-10">
-            {siteConfig.navItems.slice(0, 3).map((item) => (
-              <NavbarItem key={item.href}>
-                <NextLink className="text-white text-2xl" href={item.href}>
-                  {item.label}
-                </NextLink>
-              </NavbarItem>
+    <NextUINavbar className="bg-black p-2 z-50" maxWidth="full">
+      <NavbarContent className="flex justify-evenly">
+        <ul className="hidden lg:flex items-center justify-evenly w-full">
+          <div className="flex gap-x-10 ">
+            {links.slice(0, 3).map((item, index) => (
+              <Link
+                className="text-white text-xl hover:text-yellow-400 duration-300"
+                href={item.hash}
+                onClick={() => {
+                  setActiveSection(item.name);
+                  setTimeOfLastClick(Date.now());
+                }}
+              >
+                {item.name}
+              </Link>
             ))}
           </div>
-          <div className="flex gap-x-10 ">
-            {siteConfig.navItems.slice(3, 6).map((item) => (
-              <NavbarItem key={item.href}>
-                <NextLink className="text-white text-2xl" href={item.href}>
-                  {item.label}
-                </NextLink>
+          <Image
+            src="/assets/rizal-image.png"
+            height={10}
+            width={55}
+            alt="rizal word"
+          />
+          <div className="flex gap-x-10">
+            {links.slice(3, 6).map((item, index) => (
+              <NavbarItem key={index}>
+                <Link
+                  className="text-white text-xl hover:text-yellow-400 duration-300"
+                  href={item.hash}
+                >
+                  {item.name}
+                </Link>
               </NavbarItem>
             ))}
           </div>
@@ -42,4 +52,4 @@ export const Navbar = () => {
       </NavbarContent>
     </NextUINavbar>
   );
-};
+}

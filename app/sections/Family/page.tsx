@@ -1,12 +1,43 @@
+"use client";
 import React from "react";
-
-const FamilySection = () => {
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@nextui-org/react";
+import { useSectionInView } from "@/lib/hooks";
+function Family() {
+  const { ref } = useSectionInView("Family");
   return (
-    <section className=" min-h-screen h-full w-full" id="FamilySection">
-      <div className="bg-blue-700  h-96">hey</div>
-      <div className="">darryl and kazu</div>
+    <section
+      className="min-h-screen h-full w-full relative overflow-hidden"
+      id="family"
+      ref={ref}
+    >
+      <div className="absolute inset-0 z-40">
+        <Image
+          src={"/assets/test.gif"}
+          layout={"fill"}
+          objectFit={"cover"}
+          alt={`A cute animal!`}
+          unoptimized={true}
+        />
+      </div>
+      <div className="absolute inset-0 bg-black opacity-80 z-40"></div>
+      <div className=" relative z-40 w-full min-h-screen h-full flex flex-col items-center justify-center">
+        <h1 className="text-white text-[60px]">
+          Explore the life and works of Rizal
+          <p className="text-center text-2xl mb-4">Unfolding the history</p>
+        </h1>
+        <Link className="" href={"/"}>
+          <Button
+            radius="full"
+            className="bg-gradient-to-tr from-black to-gray-500 text-white shadow-lg border"
+          >
+            Explore More
+          </Button>
+        </Link>
+      </div>{" "}
     </section>
   );
-};
+}
 
-export default FamilySection;
+export default Family;

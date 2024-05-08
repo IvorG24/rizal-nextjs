@@ -1,19 +1,19 @@
-import EducationSection from "./sections/Education/page";
-import FamilySection from "./sections/Family/page";
-import LiteratureSection from "./sections/Literature/page";
-import LovelifeSection from "./sections/Lovelife/page";
-import TimelineSection from "./sections/Timeline/page";
-import TravelsSection from "./sections/Travels/page";
+import Education from "./sections/Education/page";
+import Family from "./sections/Family/page";
+import Literature from "./sections/Literature/page";
+import LoveLife from "./sections/Lovelife/page";
+import Timeline from "./sections/Timeline/page";
+import Travels from "./sections/Travels/page";
 
 export default function Home() {
   return (
     <>
-      <FamilySection />
-      <LovelifeSection />
-      <LiteratureSection />
-      <TimelineSection />
-      <EducationSection />
-      <TravelsSection />
+      <Family />
+      <LoveLife />
+      <Literature />
+      <Timeline />
+      <Education />
+      <Travels />
     </>
   );
 }

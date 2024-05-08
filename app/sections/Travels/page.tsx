@@ -1,11 +1,14 @@
+"use client";
 import React from "react";
+import { useSectionInView } from "@/lib/hooks";
+function Travels() {
+  const { ref } = useSectionInView("Travels");
 
-const TravelsSection = () => {
   return (
-    <section className=" min-h-screen h-full w-full" id="TravelsSection">
-      Timeline Section
+    <section id="travels" ref={ref} className=" min-h-screen h-full w-full">
+      Travels
     </section>
   );
-};
+}
 
-export default TravelsSection;
+export default Travels;

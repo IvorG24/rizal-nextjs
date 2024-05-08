@@ -3,10 +3,10 @@ import { Metadata } from "next";
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
-import { Navbar } from "@/components/navbar";
+import Navbar from "@/components/navbar";
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
-
+import ActiveSectionContextProvider from "@/context/active-section-context";
 export const metadata: Metadata = {
   title: {
     default: siteConfig.name,
@@ -20,13 +20,6 @@ export const metadata: Metadata = {
   },
 };
 
-export const viewport: Metadata = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
-    { media: "(prefers-color-scheme: dark)", color: "black" },
-  ],
-};
-
 export default function RootLayout({
   children,
 }: {
@@ -37,31 +30,24 @@ export default function RootLayout({
       <head />
       <body
         className={clsx(
-          "min-h-screen bg-background font-sans antialiased",
+          "min-h-screen h-full bg-background font-sans antialiased",
           fontSans.variable
         )}
         style={{ display: "flex", flexDirection: "column" }}
       >
-        <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-          <div className="relative flex flex-col flex-1">
-            <Navbar />
-            <main className="min-h-screen h-full w-full flex-1">
-              {children}
-            </main>
+        <ActiveSectionContextProvider>
+          <Providers themeProps={{ attribute: "class" }}>
+            <div className="relative flex flex-col flex-1 ">
+              <Navbar />
+              <main className="h-screen w-full flex-1 ">{children}</main>
 
-            <footer className=" w-full flex justify-center h-36 bg-white/20">
-              <Link
-                isExternal
-                className="flex items-center gap-1 text-current"
-                href="https://nextui-docs-v2.vercel.app?utm_source=next-app-template"
-                title="nextui.org homepage"
-              >
+              <footer className=" w-full flex justify-center h-36 bg-white/20">
                 <span className="text-default-600">Powered by</span>
                 <p className="text-primary">CPE 42</p>
-              </Link>
-            </footer>
-          </div>
-        </Providers>
+              </footer>
+            </div>
+          </Providers>
+        </ActiveSectionContextProvider>
       </body>
     </html>
   );

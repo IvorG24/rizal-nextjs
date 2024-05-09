@@ -1,29 +1,33 @@
 "use client";
 import React from "react";
+import { motion } from "framer-motion"; // Import motion from Framer Motion
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import { experiencesData } from "@/lib/data";
 import "react-vertical-timeline-component/style.min.css";
-import { useSectionInView } from "@/lib/hooks";
 import { useInView } from "react-intersection-observer";
-import { color } from "framer-motion";
+import { useSectionInView } from "@/lib/hooks";
+
 function Timeline() {
   const { ref, inView } = useInView({
     triggerOnce: true,
   });
+
   return (
     <section
-      className="min-h-screen h-full bg-[#1c1917] w-full scroll-mt-28 mb-28 sm:mb-40 "
+      className="min-h-screen h-full p-10 bg-black/90 w-full scroll-mt-28 mb-28 sm:mb-40 "
       id="timeline"
       ref={ref}
     >
-      <VerticalTimeline lineColor="white" className="z-10">
+      <h1 className="text-6xl font-bold text-center pb-6 text-white">
+        Rizal Timeline
+      </h1>
+      <VerticalTimeline lineColor="white">
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
-              className="z-50"
               visible={inView}
               contentStyle={{
                 background: "#f3f4f6",
@@ -41,19 +45,30 @@ function Timeline() {
               }}
               icon={item.icon}
               iconStyle={{
-                background: "rgba(255, 255, 255, 0.15)",
+                background: "black",
                 fontSize: "1.5rem",
-                zIndex: "999",
+
                 color: "white",
               }}
             >
-              <h3 className="font-semibold text-black capitalize">
+              {/* Wrap title with motion component and apply animation */}
+              <motion.h3
+                className="font-semibold text-black capitalize"
+                initial={{ opacity: 0, y: 20 }}
+                animate={inView ? { opacity: 1, y: 0 } : {}}
+                transition={{ duration: 0.5, delay: 0.2 }}
+              >
                 {item.title}
-              </h3>
-              <p className="font-normal text-black  !mt-0">{item.location}</p>
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+              </motion.h3>
+              {/* Wrap description with motion component and apply animation */}
+              <motion.p
+                className="!mt-1 !font-normal text-gray-700 dark:text-white/75"
+                initial={{ opacity: 0, y: 20 }}
+                animate={inView ? { opacity: 1, y: 0 } : {}}
+                transition={{ duration: 0.5, delay: 0.4 }}
+              >
                 {item.description}
-              </p>
+              </motion.p>
             </VerticalTimelineElement>
           </React.Fragment>
         ))}

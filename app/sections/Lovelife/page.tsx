@@ -4,6 +4,7 @@ import { Accordion, AccordionItem } from "@nextui-org/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleDot } from "@fortawesome/free-solid-svg-icons";
 import { useSectionInView } from "@/lib/hooks";
+import { accordionItems } from "@/lib/data";
 function LoveLife() {
   const { ref } = useSectionInView("Lovelife");
   const [openIndex, setOpenIndex] = useState(null);
@@ -15,27 +16,29 @@ function LoveLife() {
   const defaultContent =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
 
-  const accordionItems = [
-    { name: "SEGUNDA KATIGBAK", key: "1" },
-    { name: "LENOR VALENZUELA", key: "2" },
-    { name: "LENOR RIVERA", key: "3" },
-    { name: "CONSUELO ORTIGA", key: "4" },
-    { name: "O SEI SAN", key: "5" },
-    { name: "GERTRUDE BECKETT", key: "6" },
-    { name: "NELLIE BOUSTEAD", key: "7" },
-    { name: "SUZANNE JACOBY", key: "8" },
-    { name: "JOSEPHINE BRACKEN", key: "9" },
-  ];
+  // const accordionItems = [
+  //   { name: "SEGUNDA KATIGBAK", key: "1" },
+  //   { name: "LENOR VALENZUELA", key: "2" },
+  //   { name: "LENOR RIVERA", key: "3" },
+  //   { name: "CONSUELO ORTIGA", key: "4" },
+  //   { name: "O SEI SAN", key: "5" },
+  //   { name: "GERTRUDE BECKETT", key: "6" },
+  //   { name: "NELLIE BOUSTEAD", key: "7" },
+  //   { name: "SUZANNE JACOBY", key: "8" },
+  //   { name: "JOSEPHINE BRACKEN", key: "9" },
+  // ];
+  // I put this in lib/data.ts for better looking code
 
   return (
     <section
       id="lovelife"
       ref={ref}
-      className="min-h-screen h-full w-full flex flex-col items-center justify-center bg-white text-black"
+      className="min-h-screen h-full w-full flex flex-col items-center justify-center bg-black/90 text-white"
     >
-      <h2 className="text-2xl font-bold mb-4">Lovelife Section</h2>
-      <div className="transform -rotate-90">
-        <Accordion variant="shadow" className="bg-gray-800 text-white">
+      <h2 className="text-4xl font-bold mb-4">Lovelife Section</h2>
+
+      <div className="transform -rotate-90 border-2 h-full ">
+        <Accordion variant="shadow" className=" border-2 text-white ">
           {accordionItems.map(({ name, key }, index) => (
             <AccordionItem
               key={key}

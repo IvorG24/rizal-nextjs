@@ -13,7 +13,7 @@ export default function Navbar() {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
     useActiveSectionContext();
   return (
-    <NextUINavbar className="bg-black p-2 z-50" maxWidth="full">
+    <NextUINavbar className="bg-black/70 p-2 z-50 fixed top-0" maxWidth="full">
       <NavbarContent className="flex justify-evenly">
         <ul className="hidden lg:flex items-center justify-evenly w-full">
           <div className="flex gap-x-10 ">
@@ -30,12 +30,15 @@ export default function Navbar() {
               </Link>
             ))}
           </div>
-          <Image
-            src="/assets/rizal-image.png"
-            height={10}
-            width={55}
-            alt="rizal word"
-          />
+          <Link href={"/"}>
+            <Image
+              src="/assets/rizal-image.png"
+              height={10}
+              width={55}
+              alt="rizal word"
+            />
+          </Link>
+
           <div className="flex gap-x-10">
             {links.slice(3, 6).map((item, index) => (
               <NavbarItem key={index}>

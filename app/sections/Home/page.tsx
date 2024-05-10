@@ -25,7 +25,7 @@ function Banner() {
 
   return (
     <section
-      className="min-h-screen h-full w-full relative overflow-hidden"
+      className="min-h-screen h-full w-full relative overflow-hidden p-10"
       id="home"
       ref={ref}
     >
@@ -39,9 +39,13 @@ function Banner() {
         />
       </div>
       <div className="absolute inset-0 bg-black opacity-80 z-40"></div>
-      <div className=" relative z-40 w-full min-h-screen h-full flex flex-col items-center justify-center text-white">
-        <h1 className=" text-[100px]">Explore the life and works of Rizal</h1>
-        <p className="text-center text-4xl mb-4">Unfolding the history</p>
+      <div className=" relative z-40 w-full min-h-screen h-full flex flex-col items-center justify-center text-white gap-y-10">
+        <h1 className=" text-center text-2xl lg:text-[80px]">
+          Explore the life and works of Rizal
+        </h1>
+        <p className="text-center text-md lg:text-4xl mb-4">
+          Unfolding the history
+        </p>
         <Link className="" href={"/"}>
           <Button
             radius="full"

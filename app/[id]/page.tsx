@@ -29,18 +29,16 @@ function Travels() {
                 />
               </div>
               <div className="col-span-2 flex justify-center">
-                <div>
-                  <Image
-                    className=" w-full h-full"
-                    src={"/assets/paperimage.png"}
-                    alt="Image"
-                    width={200} // Set a fixed width
-                    height={200} // Set a fixed height
-                  />
-                  <p className="absolute top-1/4 right-40 w-1/2 text-2xl text-black/90 pt-10">
-                    {filteredItem.description}
-                  </p>
-                </div>
+                <Image
+                  className=" w-full h-full"
+                  src={"/assets/paperimage.png"}
+                  alt="Image"
+                  width={200} // Set a fixed width
+                  height={200} // Set a fixed height
+                />
+                <p className="absolute top-1/4 right-40 w-1/2 text-2xl text-black/90 pt-10">
+                  {filteredItem.description}
+                </p>
               </div>
             </div>
           </>

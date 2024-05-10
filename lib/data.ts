@@ -8,34 +8,36 @@ import { FaBookReader } from "react-icons/fa";
 import { FaFlag } from "react-icons/fa";
 import { FaChurch } from "react-icons/fa";
 import { FaArrowTrendDown } from "react-icons/fa6";
+import { title } from "process";
 export const links = [
   {
     name: "Family",
-    hash: "#family",
-  },
-  {
-    name: "Lovelife",
-    hash: "#lovelife",
-  },
-  {
-    name: "Literature",
-    hash: "#literature",
+    hash: "/#family",
   },
   {
     name: "Timeline",
-    hash: "#timeline",
+    hash: "/#timeline",
   },
+  {
+    name: "Lovelife",
+    hash: "/#lovelife",
+  },
+  {
+    name: "Literature",
+    hash: "/#literature",
+  },
+
   {
     name: "Education",
-    hash: "#education",
+    hash: "/#education",
   },
   {
-    name: "Travels",
-    hash: "#travels",
+    name: "Other-Works",
+    hash: "/#otherworks",
   },
   {
     name: "Home",
-    hash: "#home",
+    hash: "/#home",
   },
 ] as const;
 
@@ -175,5 +177,97 @@ export const FamilyData = [
     src: "/assets/PAMILYA/Trinidad Rizal.jpg",
     description:
       " Lorem ipsum, dolor sit amet consectetur adipisicing elit consequuntur animi eos quisquam cupiditate odit quodprovident harum quibusdam pariatur laborum sapiente omniseaque voluptatibus delectus, corporis distinctio, quia dicta! Lorem ipsum, dolor sit amet consectetur adipisicingelit. Maxime, consequuntur animi eos quisquam cupiditateodit quod provident harum quibusdam pariatur laborumdistinctio, quia dicta! Lorem ipsum, dolor sit ametsapiente omnis eaque voluptatibus delectus, corporisconsectetur adipisicing elit. Maxime, consequuntur animi eosquisquam cupiditate odit quod provident harum quibusdampariatur laborum sapiente omnis eaque voluptatibus delectus,corporis distinctio, quia dicta! Lorem ipsum, dolor sit ametconsectetur adipisicing elit. Maxime, consequuntur animi eosquisquam cupiditate odit quod provident harum quibusdampariatur laborum sapiente omnis eaque voluptatibus delectus,corporis distinctio, quia dicta!",
+  },
+];
+
+export const PaintingsData = [
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
+    title: "A painting on a pair of mother-of-pearl",
+    material: "Oil",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
+    title: "A painting on a pair of mother-of-pearl",
+    material: "Oil",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
+    title: "A painting on a pair of mother-of-pearl",
+    material: "Oil",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
+    title: "A painting on a pair of mother-of-pearl",
+    material: "Oil",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+];
+export const SculptureData = [
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
+    title: "A painting on a pair of mother-of-pearl",
+    material: "Oil",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
+    title: "A painting on a pair of mother-of-pearl",
+    material: "Oil",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
+    title: "A painting on a pair of mother-of-pearl",
+    material: "Oil",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
+    title: "A painting on a pair of mother-of-pearl",
+    material: "Oil",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+];
+
+export const EtcData = [
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
+    title: "A painting on a pair of mother-of-pearl",
+    material: "Oil",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
+    title: "A painting on a pair of mother-of-pearl",
+    material: "Oil",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
+    title: "A painting on a pair of mother-of-pearl",
+    material: "Oil",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
+    title: "A painting on a pair of mother-of-pearl",
+    material: "Oil",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   },
 ];

@@ -6,7 +6,7 @@ function Literature() {
 
   return (
     <section id="literature ref={ref}" className=" min-h-screen h-full w-full">
-      Lovelife Section
+      Literature
     </section>
   );
 }

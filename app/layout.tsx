@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import { Metadata } from "next";
 import { siteConfig } from "@/config/site";
-import { fontSans } from "@/config/fonts";
+import { fontMono } from "@/config/fonts";
 import { Providers } from "./providers";
 import Navbar from "@/components/navbar";
 import clsx from "clsx";
@@ -29,20 +29,20 @@ export default function RootLayout({
       <head />
       <body
         className={clsx(
-          "min-h-screen h-full bg-background font-sans antialiased",
-          fontSans.variable
+          "min-h-screen h-full bg-background font-mono antialiased",
+          fontMono.variable
         )}
         style={{ display: "flex", flexDirection: "column" }}
       >
         <ActiveSectionContextProvider>
-          <Providers themeProps={{ attribute: "class" }}>
+          <Providers>
             <div className="relative flex flex-col flex-1 ">
               <Navbar />
               <main className="min-h-screen h-full w-full flex-1 ">
                 {children}
               </main>
 
-              <footer className=" w-full flex justify-center items-center h-36 bg-black/90">
+              <footer className=" w-full flex justify-center items-center h-36 gap-2 bg-black/90">
                 <span className="text-default-600">Powered by</span>
                 <p className="text-primary">CPE 42</p>
               </footer>

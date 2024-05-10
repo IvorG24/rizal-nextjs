@@ -4,8 +4,8 @@ export const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
 });
-
 export const fontMono = FontMono({
-  subsets: ["latin"],
+  subsets: ["greek"],
   variable: "--font-mono",
 });
+// Additional fonts for historical theme

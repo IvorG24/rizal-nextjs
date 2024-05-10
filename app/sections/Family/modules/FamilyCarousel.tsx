@@ -24,7 +24,9 @@ const FamilyCarousel = () => {
                     height={200} // Set a fixed height
                   />
                   {/* Overlay for "Read More" text */}
-                  <h1 className="text-center pt-4">{item.name}</h1>
+                  <h1 className="text-center text-2xl font-bold pt-4">
+                    {item.name}
+                  </h1>
                   <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-50 rounded-full">
                     <Link
                       href={`/${item.name}`}

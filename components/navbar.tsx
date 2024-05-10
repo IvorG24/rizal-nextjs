@@ -19,6 +19,7 @@ export default function Navbar() {
           <div className="flex gap-x-10 ">
             {links.slice(0, 3).map((item, index) => (
               <Link
+                key={index}
                 className="text-white text-xl hover:text-yellow-400 duration-300"
                 href={item.hash}
                 onClick={() => {
@@ -31,24 +32,25 @@ export default function Navbar() {
             ))}
           </div>
           <Link href={"/"}>
-            <Image
-              src="/assets/rizal-image.png"
-              height={10}
-              width={55}
-              alt="rizal word"
-            />
+            <div className="fixed top-1 z-50">
+              <Image
+                src="/assets/rizal-image.png"
+                height={10}
+                width={70}
+                alt="rizal word"
+              />
+            </div>
           </Link>
 
           <div className="flex gap-x-10">
             {links.slice(3, 6).map((item, index) => (
-              <NavbarItem key={index}>
-                <Link
-                  className="text-white text-xl hover:text-yellow-400 duration-300"
-                  href={item.hash}
-                >
-                  {item.name}
-                </Link>
-              </NavbarItem>
+              <Link
+                key={index}
+                className="text-white text-xl hover:text-yellow-400 duration-300"
+                href={item.hash}
+              >
+                {item.name}
+              </Link>
             ))}
           </div>
         </ul>

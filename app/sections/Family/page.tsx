@@ -12,25 +12,29 @@ function Family() {
 
   return (
     <section
-      className="min-h-screen h-full w-full  bg-black/90 text-white p-10"
+      className="min-h-screen h-full w-full bg-black/90 text-white p-10 relative overflow-hidden "
       id="family"
       ref={ref}
     >
-      <h1 className="text-6xl font-bold text-center pb-20">Pamilyang Rizal</h1>
+      <h1 className="text-6xl font-bold text-center pb-20 text-white">
+        Pamilyang Rizal
+      </h1>
       <div className="flex flex-col gap-y-20">
         <div className="flex justify-center gap-20">
           {FamilyData.slice(0, 2).map((item, index) => (
             <div key={index} className="relative inline-block w-60 h-60">
               <Image
-                className="rounded-full object-cover w-full h-full"
+                className="rounded-full object-cover w-full h-full shadow-2xl"
                 src={item.src}
                 alt="Image"
                 width={200} // Set a fixed width
                 height={200} // Set a fixed height
               />
-              <Divider />
+
               {/* Overlay for "Read More" text */}
-              <h1 className="text-center pt-4">{item.name}</h1>
+              <h1 className="text-center text-2xl font-bold pt-4">
+                {item.name}
+              </h1>
               <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-50 rounded-full">
                 <Link
                   href={`/${item.name}`}

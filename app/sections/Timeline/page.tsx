@@ -8,7 +8,6 @@ import {
 import { experiencesData } from "@/lib/data";
 import "react-vertical-timeline-component/style.min.css";
 import { useInView } from "react-intersection-observer";
-import { useSectionInView } from "@/lib/hooks";
 
 function Timeline() {
   const { ref, inView } = useInView({
@@ -17,13 +16,21 @@ function Timeline() {
 
   return (
     <section
-      className="min-h-screen h-full p-10 bg-black/90 w-full scroll-mt-28 mb-28 sm:mb-40 "
+      className=" min-h-screen h-full p-10 bg-black/90 w-full scroll-mt-28 relative text-white"
       id="timeline"
       ref={ref}
+      style={{
+        backgroundImage: "url('/assets/timelinebg.jpg')",
+        backgroundSize: "cover",
+        backgroundAttachment: "fixed",
+      }}
     >
-      <h1 className="text-6xl font-bold text-center pb-6 text-white">
-        Rizal Timeline
-      </h1>
+      <div className="absolute inset-0 bg-black opacity-70 "></div>
+      <div className="z-50 relative pb-20">
+        <h1 className="text-6xl font-bold text-center pb-6 text-white">
+          Rizal Timeline
+        </h1>
+      </div>
       <VerticalTimeline lineColor="white">
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
@@ -40,14 +47,10 @@ function Timeline() {
                 borderRight: "0.4rem solid #9ca3af",
               }}
               date={item.date}
-              dateStyle={{
-                color: "white",
-              }}
               icon={item.icon}
               iconStyle={{
                 background: "black",
                 fontSize: "1.5rem",
-
                 color: "white",
               }}
             >
@@ -62,7 +65,7 @@ function Timeline() {
               </motion.h3>
               {/* Wrap description with motion component and apply animation */}
               <motion.p
-                className="!mt-1 !font-normal text-gray-700 dark:text-white/75"
+                className="!mt-1 !font-normal text-black/60 "
                 initial={{ opacity: 0, y: 20 }}
                 animate={inView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.5, delay: 0.4 }}

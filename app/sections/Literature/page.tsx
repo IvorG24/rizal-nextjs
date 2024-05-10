@@ -5,7 +5,7 @@ function Literature() {
   const { ref } = useSectionInView("Literature");
 
   return (
-    <section id="literature ref={ref}" className=" min-h-screen h-full w-full">
+    <section id="literature " ref={ref} className=" min-h-screen h-full w-full">
       Literature
     </section>
   );

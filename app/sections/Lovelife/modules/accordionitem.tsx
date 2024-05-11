@@ -1,7 +1,7 @@
+"use client";
 import React, { useState } from "react";
-
 interface AccordionItemProps {
-  index: number; // Add index prop
+  index: number;
   header: string;
   text: string;
 }

@@ -16,7 +16,7 @@ const Education = () => {
       Education Section
       <div className="flex justify-center items-center gap-x-10 w-full h-full">
         {EducationData.map((item, index) => (
-          <div className="border-2">
+          <div key={index} className="border-2">
             <p>Hell World</p>
             <h1>Hello mima ng bayan</h1>
             <div className="max-w-lg">

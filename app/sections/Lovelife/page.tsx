@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 import { useSectionInView } from "@/lib/hooks";
 import AccordionItem from "./modules/accordionitem";
@@ -22,7 +23,7 @@ function LoveLife() {
               <p className="text-base text-body-color dark:text-dark-6">
                 Tunay nga, si Dr. Jose Rizal, bilang isang manlalakbay at
                 iskolar, ay nakatagpo ng maraming kababaihan sa kanyang mga
-                paglalakbay sa iba't ibang bansa. Ilan sa mga kilalang babae na
+                paglalakbay sa ibat ibang bansa. Ilan sa mga kilalang babae na
                 nakilala niya ay sina
               </p>
             </div>

@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { useSectionInView } from "@/lib/hooks";
 import { LiteratureData } from "@/lib/data";

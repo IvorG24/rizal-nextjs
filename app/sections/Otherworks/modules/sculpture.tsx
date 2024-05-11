@@ -3,10 +3,10 @@ import { SculptureData } from "@/lib/data";
 import { motion } from "framer-motion";
 import useWindowSize from "@/lib/windowsize";
 
-interface PaintingsProps {
+interface SculptureProps {
   View: any;
 }
-const Sculptures = ({ View }: PaintingsProps) => {
+const Sculptures = ({ View }: SculptureProps) => {
   const { width } = useWindowSize();
   const isLargeScreen = width >= 1024;
   return (

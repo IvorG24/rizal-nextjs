@@ -21,22 +21,22 @@ function Travels() {
                   {filteredItem.name}
                 </h1>
                 <Image
-                  className="rounded-full object-cover w-3/4 h-full"
+                  className="rounded-full "
                   src={filteredItem.src}
                   alt="Image"
-                  width={60} // Set a fixed width
-                  height={60} // Set a fixed height
+                  width={600} // Set a fixed width
+                  height={600} // Set a fixed height
                 />
               </div>
               <div className="col-span-2 flex justify-center">
                 <Image
-                  className=" w-full h-full"
+                  className=" "
                   src={"/assets/paperimage.png"}
                   alt="Image"
-                  width={200} // Set a fixed width
-                  height={200} // Set a fixed height
+                  width={1500} // Set a fixed width
+                  height={100} // Set a fixed height
                 />
-                <p className="absolute top-1/4 right-40 w-1/2 text-2xl text-black/90 pt-10">
+                <p className="absolute top-1/4 right-40 w-1/2 text-2xl text-white/90 pt-10">
                   {filteredItem.description}
                 </p>
               </div>

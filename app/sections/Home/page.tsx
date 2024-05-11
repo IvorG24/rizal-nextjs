@@ -39,22 +39,15 @@ function Banner() {
         />
       </div>
       <div className="absolute inset-0 bg-black opacity-80 z-40"></div>
-      <div className=" relative z-40 w-full min-h-screen h-full flex flex-col items-center justify-center text-white gap-y-10">
-        <h1 className=" text-center text-2xl lg:text-[80px]">
-          Explore the life and works of Rizal
-        </h1>
-        <p className="text-center text-md lg:text-4xl mb-4">
-          Unfolding the history
-        </p>
-        <Link className="" href={"/"}>
-          <Button
-            radius="full"
-            className="bg-gradient-to-tr from-black to-gray-500 text-white shadow-lg border text-lg"
-          >
-            Explore More
-          </Button>
-        </Link>
-        {linkVisible && (
+      {linkVisible && (
+        <div className=" z-40 w-full min-h-screen h-full fixed flex flex-col items-center justify-center text-white gap-y-10">
+          <h1 className=" text-center text-2xl lg:text-[100px]">
+            Explore the life and works of Rizal
+          </h1>
+          <p className="text-center text-md lg:text-4xl mb-4">
+            Unfolding the history
+          </p>
+
           <Link
             onClick={handleLinkClick}
             href="#family"
@@ -62,8 +55,8 @@ function Banner() {
           >
             <FaArrowDownLong className="text-white z-50 text-3xl font-light" />
           </Link>
-        )}
-      </div>
+        </div>
+      )}
     </section>
   );
 }

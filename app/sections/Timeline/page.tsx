@@ -27,7 +27,7 @@ function Timeline() {
     >
       <div className="absolute inset-0 bg-black opacity-70 "></div>
       <div className="z-50 relative pb-20">
-        <h1 className="text-6xl font-bold text-center pb-6 text-white">
+        <h1 className="text-6xl font-bold text-center pb-6 text-yellow-500">
           Rizal Timeline
         </h1>
       </div>

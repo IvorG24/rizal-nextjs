@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import { Metadata } from "next";
 import { siteConfig } from "@/config/site";
-import { fontMono } from "@/config/fonts";
+import { fontWhisper } from "@/config/fonts";
 import { Providers } from "./providers";
 import Navbar from "@/components/navbar";
 import clsx from "clsx";
@@ -29,8 +29,8 @@ export default function RootLayout({
       <head />
       <body
         className={clsx(
-          "min-h-screen h-full bg-background font-mono antialiased",
-          fontMono.variable
+          "min-h-screen h-full font-whisper antialiased",
+          fontWhisper.variable
         )}
         style={{ display: "flex", flexDirection: "column" }}
       >

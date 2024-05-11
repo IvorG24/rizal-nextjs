@@ -18,7 +18,7 @@ function Otherworks() {
       <h1 className="text-6xl font-bold text-center pb-20 text-white">
         Other Works
       </h1>
-      <div className="flex w-full flex-col text-white">
+      <div className="flex w-full flex-col text-white items-center">
         <Tabs
           aria-label="Options"
           variant="underlined"
@@ -47,7 +47,7 @@ function Otherworks() {
 
           <Tab key="etc" title="Etc">
             <h1 className="text-2xl font-bold text-center pb-20 text-white">
-              Rizal optPaintings
+              Rizal Paintings
             </h1>
             <Etcworks View={inView} />
           </Tab>

@@ -39,7 +39,7 @@ const PageDots = () => {
   }, []);
 
   return (
-    <div className="fixed top-1/2 right-4 transform -translate-y-1/2 z-50">
+    <div className="fixed top-1/2 right-10 transform -translate-y-1/2 z-50">
       {[...Array(7)].map((_, index) => (
         <div
           key={index}

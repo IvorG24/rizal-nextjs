@@ -16,7 +16,7 @@ function Family() {
       id="family"
       ref={ref}
     >
-      <h1 className="text-6xl font-bold text-center pb-20 text-white">
+      <h1 className="text-6xl font-bold  pb-20 text-yellow-500">
         Pamilyang Rizal
       </h1>
       <div className="flex flex-col gap-y-20">

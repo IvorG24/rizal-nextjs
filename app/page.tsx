@@ -8,8 +8,6 @@ import LoveLife from "./sections/Lovelife/page";
 import Otherworks from "./sections/Otherworks/page";
 import Timeline from "./sections/Timeline/page";
 
-import { useState, useEffect } from "react";
-
 export default function Home() {
   return (
     <>
@@ -18,8 +16,8 @@ export default function Home() {
       <Timeline />
       <LoveLife />
       <Literature />
-      <Education />
       <Otherworks />
+      <Education />
       <PageDots />
     </>
   );

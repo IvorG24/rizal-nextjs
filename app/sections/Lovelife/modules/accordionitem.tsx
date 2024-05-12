@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { motion } from "framer-motion";
+import { useSectionInView } from "@/lib/hooks";
 interface AccordionItemProps {
   index: number;
   header: string;
@@ -9,13 +10,16 @@ interface AccordionItemProps {
 
 const AccordionItem = ({ header, text }: AccordionItemProps) => {
   const [active, setActive] = useState(false);
-
+  const { ref, inView } = useSectionInView("Lovelife");
   const handleToggle = () => {
     setActive(!active);
   };
 
   return (
-    <div className="mb-8 w-full rounded-lg bg-white p-4 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] lg:p-8">
+    <div
+      ref={ref}
+      className="mb-8 w-full rounded-lg bg-white p-4 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] lg:p-8"
+    >
       <div className="w-full flex flex-row items-center gap-x-6 text-black">
         <motion.div
           className="text-2xl"

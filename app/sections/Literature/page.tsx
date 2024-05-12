@@ -34,7 +34,7 @@ function Literature() {
         <div className="absolute inset-0 bg-black opacity-10 z-10"></div>
       )}
       <div className="absolute inset-0 bg-black opacity-70 z-10"></div>
-      <h1 className="text-4xl lg:text-6xl font-bold pb-20 text-center font-serif   text-yellow-500 z-40">
+      <h1 className="text-4xl lg:text-6xl font-bold pb-10 text-center font-serif   text-yellow-500 z-40">
         Mga natatanging literatura ni Rizal
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-10 relative z-20">
@@ -48,7 +48,7 @@ function Literature() {
               Explore More
             </div>
             <div className="absolute inset-0 flex items-center justify-center text-center">
-              <h1 className="text-white text-xl lg:text-2xl font-serif w-72 z-40">
+              <h1 className="text-white text-xl lg:text-2xl font-serif w-40 z-40">
                 {item.title}
               </h1>
             </div>

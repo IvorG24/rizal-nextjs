@@ -119,7 +119,7 @@ function Banner() {
               <Link
                 onClick={handleLinkClick}
                 href="#family"
-                className="fixed bottom-5 animate-pulse"
+                className="hidden lg:fixed bottom-5 animate-pulse "
               >
                 <FaArrowDownLong className="text-white z-50 text-3xl font-light" />
               </Link>

@@ -16,7 +16,7 @@ function Timeline() {
 
   return (
     <section
-      className=" min-h-screen h-full p-10 bg-black/90 w-full scroll-mt-28 relative text-white"
+      className=" min-h-screen h-full p-10 bg-black/90 w-full relative text-white"
       id="timeline"
       ref={ref}
       style={{

@@ -58,7 +58,7 @@ const NavMenu = () => {
           />
         </div>
         {/* Drawer content */}
-        <div className="flex flex-col text-white items-center justify-start pt-20 h-full">
+        <div className="flex flex-col text-white items-center justify-start pt-10 h-full">
           <Link
             href={"/"}
             onClick={toggleDrawer}

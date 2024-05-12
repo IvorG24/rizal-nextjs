@@ -59,9 +59,9 @@ const Paintings = ({ View }: PaintingsProps) => {
               <motion.div className="col-span-1 p-10">
                 <img src={item.src} alt="rizal painting" />
               </motion.div>
-              <motion.div className="col-span-2 space-y-4 text-2xl p-10">
+              <motion.div className="col-span-2 space-y-4 text-2xl text-justify">
                 <div className="flex gap-x-4">
-                  <div className="flex flex-col lg:flex-row gap-4 items-start lg:items-center">
+                  <div className="flex flex-col lg:flex-row gap-4 items-start lg:items-center  text-justify">
                     <h1 className="font-bold text-lg lg:text-xl">
                       {item.title}
                     </h1>
@@ -70,7 +70,6 @@ const Paintings = ({ View }: PaintingsProps) => {
                     </h1>
                   </div>
                 </div>
-
                 <p className="text-sm">{item.description}</p>
               </motion.div>
             </>

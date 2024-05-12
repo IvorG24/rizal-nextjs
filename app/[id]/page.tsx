@@ -15,7 +15,7 @@ function Travels() {
       {FamilyData.filter((item) => item.name == DataName).map(
         (filteredItem) => (
           <>
-            <div className="grid grid-cols-1 lg:grid-cols-3 pt-20">
+            <div className="grid grid-cols-1 lg:grid-cols-3 pt-20 ">
               <div className=" col-span-1 flex flex-col  items-center">
                 <h1 className="font-bold text-4xl lg:text-6xl pb-10">
                   {filteredItem.name}
@@ -36,7 +36,7 @@ function Travels() {
                   width={1500} // Set a fixed width
                   height={100} // Set a fixed height
                 />
-                <p className="absolute top-[45%] lg:top-1/4 lg:right-40 lg:w-1/2 text-sm w-full lg:text-2xl font-serif text-white/90 lg:text-black/90 pt-10 p-10 text-justify">
+                <p className=" lg:absolute top-[45%] lg:top-1/4 lg:right-40 lg:w-1/2 text-sm w-full lg:text-2xl font-serif text-white/90 lg:text-black/90 pt-10 text-justify">
                   {filteredItem.description}
                 </p>
               </div>

@@ -40,7 +40,7 @@ function Family() {
       ref={ref}
     >
       <motion.h1 // Animate the title
-        className="text-4xl lg:text-6xl font-bold pb-20 text-center font-serif   text-yellow-500 z-40"
+        className="text-4xl lg:text-6xl font-bold pb-10 text-center font-serif   text-yellow-500 z-40"
         variants={titleVariants} // Set animation variants
         initial="hidden" // Set initial animation state
         animate={controls} // Trigger animation when in view
@@ -52,7 +52,7 @@ function Family() {
         <h1 className="text-2xl lg:text-4xl font-bold text-center text-white">
           Magulang
         </h1>
-        <div className="flex justify-center gap-20">
+        <div className="flex justify-center gap-10">
           {FamilyData.slice(0, 2).map((item, index) => (
             <motion.div // Animate each family member card
               key={index}
@@ -77,7 +77,7 @@ function Family() {
               <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-50 rounded-full">
                 <Link
                   href={`/${item.name}`}
-                  className="font-bold text-2xl text-yellow-500 "
+                  className="font-bold text-sm lg:text-2xl text-yellow-500 "
                 >
                   Read More
                 </Link>

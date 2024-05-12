@@ -18,7 +18,6 @@ export default function Home() {
       <Literature />
       <Otherworks />
       <Education />
-      <PageDots />
     </>
   );
 }

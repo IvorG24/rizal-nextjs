@@ -29,16 +29,24 @@ const Paintings = ({ View }: PaintingsProps) => {
                   <img src={item.src} alt="rizal painting" />
                 </motion.div>
                 <motion.div className="col-span-2 space-y-4 text-2xl p-10">
-                  <h1 className="font-bold">{item.title}</h1>
-                  <h1>Material : {item.material}</h1>
+                  <div className="flex gap-x-4 items-center">
+                    <h1 className="font-bold ">{item.title}</h1>
+                    <h1 className="border-yellow-500 border-3 px-4 py-1 rounded-full">
+                      Material : {item.material}
+                    </h1>
+                  </div>
                   <p>{item.description}</p>
                 </motion.div>
               </>
             ) : (
               <>
                 <motion.div className="col-span-2 space-y-4 text-2xl p-10">
-                  <h1 className="font-bold">{item.title}</h1>
-                  <h1>Material : {item.material}</h1>
+                  <div className="flex gap-x-4 items-center">
+                    <h1 className="font-bold ">{item.title}</h1>
+                    <h1 className="border-yellow-500 border-3 px-4 py-1 rounded-full">
+                      Material : {item.material}
+                    </h1>
+                  </div>
                   <p>{item.description}</p>
                 </motion.div>
                 <motion.div className="col-span-1 p-10">
@@ -52,9 +60,18 @@ const Paintings = ({ View }: PaintingsProps) => {
                 <img src={item.src} alt="rizal painting" />
               </motion.div>
               <motion.div className="col-span-2 space-y-4 text-2xl p-10">
-                <h1 className="font-bold">{item.title}</h1>
-                <h1>Material : {item.material}</h1>
-                <p>{item.description}</p>
+                <div className="flex gap-x-4">
+                  <div className="flex flex-col lg:flex-row gap-4 items-start lg:items-center">
+                    <h1 className="font-bold text-lg lg:text-xl">
+                      {item.title}
+                    </h1>
+                    <h1 className="border-yellow-500 border-3 px-4 py-1 rounded-full text-sm lg:text-md">
+                      Material : {item.material}
+                    </h1>
+                  </div>
+                </div>
+
+                <p className="text-sm">{item.description}</p>
               </motion.div>
             </>
           )}

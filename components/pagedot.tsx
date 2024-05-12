@@ -14,8 +14,8 @@ const PageDots = () => {
         "timeline",
         "lovelife",
         "literature",
-        "education",
         "otherworks",
+        "education",
       ];
 
       for (let i = 0; i < sections.length; i++) {
@@ -39,12 +39,12 @@ const PageDots = () => {
   }, []);
 
   return (
-    <div className="fixed top-1/2 right-10 transform -translate-y-1/2 z-50">
+    <div className="fixed top-1/4 lg:top-1/2 right-6 transform -translate-y-1/2 z-50">
       {[...Array(7)].map((_, index) => (
         <div
           key={index}
-          className={`w-4 h-4 rounded-full m-1 cursor-pointer ${
-            index === activeDotIndex ? "bg-primary" : "bg-gray-400"
+          className={`w-2 h-2 lg:w-4 lg:h-4 rounded-full m-1 cursor-pointer ${
+            index === activeDotIndex ? "bg-yellow-500" : "bg-gray-400"
           }`}
           style={{ position: "absolute", top: `${index * 20}px` }} // Adjust positioning here
         />

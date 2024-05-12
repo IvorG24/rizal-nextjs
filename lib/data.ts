@@ -27,12 +27,12 @@ export const links = [
   },
 
   {
-    name: "Education",
-    hash: "/#education",
-  },
-  {
     name: "Other-Works",
     hash: "/#otherworks",
+  },
+  {
+    name: "Education",
+    hash: "/#education",
   },
   {
     name: "Home",
@@ -216,12 +216,6 @@ export const FamilyData = [
     description:
       "Si Trinidad Rizal ay ika-10 sa magkakapatid na Rizal. Siya ay ipinanganak noong 1868 at namatay noong 1951. Ang palayaw niya ay Trining at siyang tagapagtago at tagapamahala na pinakahuli at pinakatanyag na tula ni Jose Rizal.\n\nBago namatay si Jose Rizal ay dinalaw siya ni Trining at ng kanilang ina sa kanyang piitan sa Fort Santiago. Nang sila’y paalis na ay inabot ni Jose Rizal ang isang lampana, isang regalo mula sa mga Pardo de Tavera at ibinulong sa kanya sa wikang hindi naunawaan ng mga kawal na nakabantay sa kanya na ang lutuan ay mayroong bagay na nakatago doon at iyon ay ang kanyang huling tulang isinulat.\n\nTulad ni Josefa at dalawang pamangkin, sumapi sa Katipunan si Trinidad matapos ang kamatayan ni Jose Rizal.",
   },
-  {
-    name: "Concepcion Rizal",
-    src: "/assets/PAMILYA/Trinidad Rizal.jpg",
-    description:
-      "	Siya ang binansagang “Concha” ng kanyang mga kapatid at kaanak, si Concepcion Rizal ay ipinanganak noong 1862 at namatay sa edad lamang na tatlong taon, noong 1865. Siya ang pangwalo sa sampung magkakapatid. Sinasabing sa lahat ng kapatid na babae, si Concha ang pinakapaborito ni Jose o “Pepe” Rizal na mas bata nang isang taon sa kanya. Magkalaro sila at laging kinukuwentuhan ni Jose Rizal ang nakababatang kapatid at sa kanya naramdaman ni Jose Rizal ang kagandahan ng pagmamahal ng isang kapatid na babae.",
-  },
 ];
 
 export const PaintingsData = [
@@ -379,48 +373,38 @@ export const LiteratureData = [
 ];
 export const EducationData = [
   {
-    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
+    src: "https://live.staticflickr.com/5134/5521531869_70285ebeaa_b.jpg",
     title: "A painting on a pair of mother-of-pearl",
-    Date: "March 19, 2023",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    Link: "/",
-    University: "Tanza University",
+    Date: "Kabataan ni Rizal",
+    Link: "https://en.wikipedia.org/wiki/Teodora_Alonso_Realonda",
+    University: "Casa Escuela de Dona Teodora",
   },
   {
-    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
-    title: "A painting on a pair of mother-of-pearl",
-    Date: "March 19, 2023",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    Link: "/",
-    University: "Tanza University",
+    src: "https://images.summitmedia-digital.com/spotph/images/old-universtiy-buildings_64.jpg",
+    title: "Tinapos nito ang Bachelor of Arts (B.A.)",
+    Date: "1872-1877",
+    Link: "https://prezi.com/pdv6kk0nc8d-/ang-pag-aaral-ni-rizal-sa-ateneo-municipal-de-manila/#:~:text=si%20Rizal%20at%20nagbalak%20na%20pumasok%20sa%20Ateneo.&text=nagsimula%20ang%20pag%2Daaral%20sa,natanggap%20na%20pumasok%20sa%20Ateneo.",
+    University: "Ateneo Municipal de Manila",
   },
   {
-    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
-    title: "A painting on a pair of mother-of-pearl",
-    Date: "March 19, 2023",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    Link: "/",
-    University: "Tanza University",
+    src: "https://i.pinimg.com/736x/19/1a/44/191a443bcf84bbc492fd6cd3c0142a34.jpg",
+    title: "Hinasa ni Rizal ang Pilosopiya at Letters",
+    Date: "Abril 1877",
+    Link: "https://varsitarian.net/filipino/20090715/si_jose_rizal_bilang_isangtomasino#:~:text=Matapos%20mag%2Daral%20sa%20Ateneo,siya%20sigurado%20sa%20kursong%20kukunin.",
+    University: "University of Santo Tomas (UST)",
   },
   {
-    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
-    title: "A painting on a pair of mother-of-pearl",
-    Date: "March 19, 2023",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    Link: "/",
-    University: "Tanza University",
+    src: "https://i.pinimg.com/originals/85/3a/b5/853ab58f99f2107abd20bacf75d446da.jpg",
+    title: "Medisina ang tinahak na landas sa Madrid",
+    Date: "1882",
+    Link: "https://rizal.raphaelmarco.com/biography/education",
+    University: "Universidad Central de Madrid",
   },
   {
-    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
-    title: "A painting on a pair of mother-of-pearl",
+    src: "https://lh4.googleusercontent.com/proxy/dTfulJdvP7QcS-TdvBLovBtG--6DIlfbZosSmSAxxkpLN3GgLkiirUw5Rxea4netQLgJ3n0KIJIHMblYZE-WPI8dk8Qdz5Nbe1s76a7BG78zgj_6378ZPZXZP73BDyWN7_GtN44UWwuukn-h51srzw",
+    title: "Higit na pinalalim ang kaalaman sa Pilosopiya at Letras",
     Date: "March 19, 2023",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    Link: "/",
-    University: "Tanza University",
+    Link: "https://rizal.raphaelmarco.com/biography/education",
+    University: "Universidad Central de Barcelona",
   },
 ];

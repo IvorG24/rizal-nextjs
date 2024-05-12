@@ -17,11 +17,17 @@ interface bookProps {
 const BookModal = ({ open, close, description, title }: bookProps) => {
   return (
     <>
-      <Modal isOpen={open} onClose={close}>
+      <Modal
+        className="bg-yellow-200 fixed top-44 m-4"
+        isOpen={open}
+        onClose={close}
+      >
         <ModalContent>
           <ModalHeader className="flex flex-col gap-1">{title}</ModalHeader>
           <ModalBody>
-            <p>{description}</p>
+            <p className="underline underline-offset-8 text-justify">
+              {description}
+            </p>
             {/* Add more content here */}
           </ModalBody>
           <ModalFooter>

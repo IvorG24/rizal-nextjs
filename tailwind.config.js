@@ -9,7 +9,11 @@ module.exports = {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        serif: ["Old English Text MT", "Times New Roman", "serif"],
+      },
+    },
   },
 
   plugins: [nextui()],

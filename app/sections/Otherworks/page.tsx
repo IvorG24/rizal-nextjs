@@ -15,16 +15,16 @@ function Otherworks() {
       ref={ref}
       className=" h-auto w-full bg-black/90 text-white p-10"
     >
-      <h1 className="text-6xl font-bold text-center pb-20 text-white">
-        Other Works
+      <h1 className="text-4xl lg:text-6xl font-bold pb-20 text-center font-serif  text-yellow-500 z-40">
+        Mga obra na ginawa ni Rizal
       </h1>
-      <div className="flex w-full flex-col text-white items-center">
+      <div className="flex w-full flex-col text-white h-full">
         <Tabs
           aria-label="Options"
           variant="underlined"
           classNames={{
             tabList:
-              "gap-6 w-full relative rounded-none p-0 border-b border-divider",
+              "gap-6 w-full relative rounded-none p-10 border-b border-divider",
             cursor: "w-full bg-[#ffff]",
             tab: "max-w-fit px-0 h-12 text-2xl",
             tabContent: "group-data-[selected=true]:text-[#ffff]",

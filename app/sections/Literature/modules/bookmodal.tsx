@@ -18,14 +18,14 @@ const BookModal = ({ open, close, description, title }: bookProps) => {
   return (
     <>
       <Modal
-        className="bg-yellow-200 fixed top-44 m-4"
+        className="bg-yellow-200 fixed top-44 m-4 text-black"
         isOpen={open}
         onClose={close}
       >
         <ModalContent>
           <ModalHeader className="flex flex-col gap-1">{title}</ModalHeader>
           <ModalBody>
-            <p className="underline underline-offset-8 text-justify">
+            <p className="underline underline-offset-8 text-justify text-black">
               {description}
             </p>
             {/* Add more content here */}

@@ -28,10 +28,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head />
       <body
-        className={clsx(
-          "min-h-screen h-full font-whisper antialiased",
-          fontWhisper.variable
-        )}
+        className={clsx("min-h-screen h-full antialiased")}
         style={{ display: "flex", flexDirection: "column" }}
       >
         <ActiveSectionContextProvider>

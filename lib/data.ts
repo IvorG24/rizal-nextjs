@@ -44,50 +44,49 @@ export const accordionItems = [
   {
     name: "Segunda Katigbak",
     description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. ",
+      "Ang unang karanasan ni Jose Rizal sa pag-ibig ay isang mapait na karanasan. Siya ay nagkaroon ng puppy love para kay Segunda Katigbak, isang batang babae na, sa kasamaang-palad para sa kanya, ay mayroon nang nakaengkuwentro na magiging kanyang asawa, si Manuel Luz, isang lalaking mula sa kanyang bayan.",
   },
   {
     name: "Lenor Valenzuela",
     description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. ",
+      "Matapos matapos ang kanyang puppy love, natagpuan ni Rizal ang kanyang sarili na interesado sa isa pang babae: si Leonor Valenzuela, isang matangkad na babae mula sa Pagsanjan. Mayroon siyang kakaibang paraan ng pagpapakita ng kanyang pagmamahal - sumulat siya ng mga lihim na mensahe gamit ang invisible ink! Ang mga mensaheng ito ay maaaring mabasa lamang kung ihahawak mo ang papel sa ilalim ng isang ilaw o kandila. Bago umalis patungong Espanya, tiniyak ni Rizal na magpaalam sa huli kay Leonor.",
   },
   {
-    name: "Lenor Rivera",
+    name: "Leonor Rivera",
     description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. ",
+      "Si Leonor Rivera ang espesyal na karelasyon ni Rizal sa loob ng mahabang panahon, eksaktong 11 taon. Siya ang dahilan kung bakit hindi siya nahulog sa iba habang siya'y naglalakbay. Ngunit may malaking suliranin: hindi gusto ni Leonor's mom si Rizal. Iniisip niya na siya'y isang taong gulo dahil sa kanyang pagtuligsa sa pamahalaan. Kaya't itinago niya ang lahat ng mga liham na ipinadala ni Rizal kay Leonor. Dahil dito, iniisip ni Leonor na si Rizal ay nakalimutan na siya. Dahil sa kalungkutan at pag-iisa, pumayag siyang ikasal sa isang lalaki na pinili ng kanyang ina para sa kanya, isang Englishman na may pangalang Henry Kipping. Kaya ang pagmamahalan nina Rizal at Leonor, na dating matatag, ay malungkot na nagtapos dahil sa pakikialam ng ibang tao.",
   },
   {
     name: "Consuelo Ortiga",
     description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. ",
+      "Noong kanyang panahon sa Espanya, nakilala ni Rizal si Consuelo Ortiga y Rey, isa sa mga anak ni Don Pablo Ortiga. Siya ay isang magandang binibini, at kitang-kita na si Rizal ay naakit sa kanya. Isinulat pa niya para sa kanya ang isang tula, A la Senorita C.O. y R., na itinuturing na isa sa kanyang pinakamahusay na likha. Madalas na bumibisita sina Rizal at ang kanyang mga kaibigan sa tahanan ng mga Ortiga sa Madrid. Tilang maaaring naramdaman niya ang pagkakaroon ng mga damdamin para kay Consuelo, at maaaring hiningan pa siya nito na sumulat ng mga romantikong tula para sa kanya. Gayunpaman, nagpasya si Rizal na huminga muna bago pa ito lumalim. Nais niyang manatiling tapat sa kanyang pag-ibig kay Leonor Rivera sa Pilipinas, at hindi rin niya nais na magdulot ng problema sa kanyang kaibigan na si Eduardo de Lete, na umiibig ng husto kay Consuelo.",
   },
   {
     name: "O Sei San",
     description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. ",
+      "Sa panahon na siya ay nasa Japan, nakilala ni Rizal ang isang babae na nagngangalang O-Sei-San, ang anak ng isang samurai. Tinuruan niya siya ng isang espesyal na uri ng Hapones na pagpipinta na tinatawag na su-mie at tinulungan siya na mas maging mahusay sa pakikipag-usap sa wikang Hapones. Si O-Sei-San ay matalino at maganda, at lubos na nagustuhan ni Rizal. Kung hindi siya masyadong nakatuon sa pagtulong sa kanyang bayan, maaaring pinakasalan niya siya at nanirahan sa Hapon. May magandang trabaho pa nga siyang inaalok doon! Ngunit sa bandang huli, mas matibay ang kanyang pagmamahal sa kanyang bayan.",
   },
   {
     name: "Gertrude Becket",
     description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. ",
+      "Nang si Rizal ay nasa London upang mag-aral ng kasaysayan, nanirahan siya sa pamilya Beckett. May tatlong anak ang pamilya, at ang pinakamatanda, si Gertrude, ay may asul na mga mata at kahanga-hangang ganda. Nahulog ang loob ni Gertrude kay Rizal, at pati na rin siya'y tumulong sa kanya sa kanyang pagpipinta at paggawa ng mga eskultura. Gayunpaman, napagtanto ni Rizal na ang damdamin ni Gertrude ay nagiging seryoso na, at hindi niya nais na lokohin ito. Kaya naman, nagpasya siyang iwan ang London at pumunta sa Paris. Bago umalis, natapos niya ang isang eskultura ng tatlong kapatid na Beckett at ibinigay ito kay Gertrude bilang alaala ng kanilang panahon na magkasama.",
   },
   {
     name: "Nellie Bousted",
     description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. ",
+      "Pagkatapos mawala si Leonor, nagsimulang mag-isip muli si Rizal na hanapin ang pag-ibig. Nakipagkaibigan siya sa dalawang magkapatid na babae, si Nellie at Adelina Boustead, habang nananatili sa kanilang pamilya sa Biarritz. Kasama ang mga kapatid, nag-enjoy sila sa paglalaro ng fencing, at si Nellie ay nagkaroon ng malalim na damdamin para kay Rizal. Gayunpaman, may isang suliranin: si Antonio Luna, ang kapatid ni Rizal na kaibigan na si Juan Luna, ay interesado rin kay Nellie. Bagaman may nararamdaman si Nellie para kay Rizal, hindi nagtagal ang kanilang relasyon. Nais ni Nellie na maging Protestant si Rizal tulad niya, ngunit tinanggihan ito ni Rizal. Bukod dito, iniisip ng ina ni Nellie na si Rizal, bilang isang doktor na walang maraming mayamang pasyente, ay hindi magiging magandang asawa para sa kanyang anak.",
   },
   {
     name: "Suzanne Jacoby",
     description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. ",
+      "Noong 1890, kailangan umalis ni Rizal sa Paris dahil masyadong mahal ang gastusin doon. Lumipat siya sa Brussels at nanirahan sa isang boarding house na pinamamahalaan ng dalawang magkapatid na Jacoby. Sa paglipas ng panahon, nahulog sa pag-ibig si Rizal at ang isa sa mga kapatid, si Suzanne. Sa oras na kailangan nang umalis ni Rizal sa Brussels, sawi sa pag-ibig si Suzanne at umiyak. Pati na rin, sumulat siya ng mga liham kay Rizal matapos itong lumipat sa Madrid.",
   },
   {
     name: "Josephine Bracken",
     description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. ",
+      "Nang manirahan sa Dapitan noong 1895, nakilala ni Jose Rizal si Josephine Bracken, isang babaeng Irlandesa na may maliliwanag na asul na mga mata at masayang disposisyon, na humingi ng tulong sa kanya para sa kondisyon sa mata ng kanyang amang inampon. Bagaman may mga unang pag-aalinlangan mula sa mga kapatid ni Rizal tungkol sa mga hangarin ni Josephine, unti-unti siyang nahulog sa kanya, na nauuhaw sa kasamaan sa kanyang kinalalagyan. Bagaman nagnanais silang magpakasal, naantala ito ni Josephine dahil sa kanyang pag-aalala sa kanyang bulag na amang inampon. Matapos umalis ni Rizal, nanatili si Josephine sa pamilya niya sa Maynila. Sa kanyang pagbabalik sa Dapitan, sinubukan ni Rizal na itaguyod ang isang kasal, ngunit tinanggihan ng lokal na pari malibang bawiin ni Rizal ang kanyang mga kritisismo laban sa Simbahan. Pinili nilang mabuhay magkasama kahit walang kasal sa simbahan, at hinarap nina Rizal at Josephine ang trahedya nang hindi mabuhay ang kanilang anak sa pagsilang, malamang dahil sa isang nakaka-stress na pangyayari sa panahon ng pagbubuntis ni Josephine.",
   },
 ] as const;
-
 export const experiencesData = [
   {
     title: "Kapanganakan at Binyag",
@@ -220,95 +219,262 @@ export const FamilyData = [
 
 export const PaintingsData = [
   {
-    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
+    src: "https://eyeofthetiger25.wordpress.com/wp-content/uploads/2016/02/a-painting-on-a-pair-of-mother-of-pearl.png",
     title: "A painting on a pair of mother-of-pearl",
-    material: "Oil",
+    material: "Langis",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Mga balang pinturahan ni Rizal sa Dapitan at ibinigay bilang regalo kay Doña Leonor Valenzuela at sa huli'y ipinasa sa mga kamay ni Doña Margarita Valenzuela.",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/paintings/spanish-coat-of-arms.jpg",
+    title: "Spanish Coat of Arms",
+    material: "Akvarel na pintura",
+    description:
+      "Eskudo ng Espanya na ginawa noong kapistahan ni San Rafael sa Calamba noong 1867.",
   },
   {
     src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
-    title: "A painting on a pair of mother-of-pearl",
-    material: "Oil",
+    title: "Dapitan Church Chains",
+    material: "Langis",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Ginawa ni Dr. Rizal ito habang nakapiit sa Dapitan noong 1894.",
   },
   {
-    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
-    title: "A painting on a pair of mother-of-pearl",
-    material: "Oil",
+    src: "https://rizal.raphaelmarco.com/static/files/paintings/saturnina-rizal.jpg",
+    title: "Saturnina Rizal",
+    material: "Langis",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Ang pinturang ito na ginawa sa langis ay ngayon ay ipinapakita sa Rizal Shrine sa Fort Santiago.",
   },
   {
-    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
-    title: "A painting on a pair of mother-of-pearl",
-    material: "Oil",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    src: "https://rizal.raphaelmarco.com/static/files/paintings/allegory-on-a-pair.jpg",
+    title: "Allegory on a pair of porcelain bases of the new year celebration",
+    material: "Langis",
+    description: "Isang pinturang langis na ginawa sa Berlin noong 1886.",
   },
 ];
+
 export const SculptureData = [
   {
-    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
-    title: "A painting on a pair of mother-of-pearl",
-    material: "Oil",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/triumph-of-death-over-life.jpg",
+    title: "Triumph of death over life",
+    material: "Putik",
+    description: "Ibinigay kay Dr. Blumentritt noong 1890 sa Brussels",
   },
   {
-    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
-    title: "A painting on a pair of mother-of-pearl",
-    material: "Oil",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/triumph-of-science-over-death.jpg",
+    title: "Triumph of science over death",
+    material: "Putik",
+    description: "Ibinigay kay Dr. Blumentritt noong 1890 sa Brussels",
   },
   {
-    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
-    title: "A painting on a pair of mother-of-pearl",
-    material: "Oil",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/bust-of-father-jose-guerrico.jpg",
+    title: "Bust of Father Jose Guerrico",
+    material: "Putik",
+    description: "Ginawa sa Dapitan, 1894",
   },
   {
-    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
-    title: "A painting on a pair of mother-of-pearl",
-    material: "Oil",
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/oyang-dapitana.jpg",
+    title: "Oyang Dapitana",
+    material: "Putik",
+    description: "Ginawa sa Dapitan noong 1893 – 1894",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/model-head-of-a-dapitan-girl.jpg",
+    title: "Model head of a Dapitan girl",
+    material: "Putik",
+    description: "Ginawa sa Dapitan",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/sacred-heart-of-jesus.jpg",
+    title: "Sacred heart of Jesus",
+    material: "Kahoy",
+    description: "Ginawa sa Ateneo de Manila noong 1875 – 1877",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/composite-statuette.jpg",
+    title: "Composite Statuette",
+    material: "Terra Cotta",
+    description: "Molde sa Brussels noong 1890",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/mothers-revenge.jpg",
+    title: "Mother’s Revenge",
+    material: "Putik",
+    description: "Ginawa sa Dapitan noong 1894",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/josephine-bracken-medallion.jpg",
+    title: "Josephine Bracken (medallion)",
+    material: "Kahoy",
+    description: "Ginawa sa Dapitan noong 1895 - 1896",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/dr-francisco-mercado.jpg",
+    title: "Dr. Francisco Mercado",
+    material: "Kahoy",
+    description: "Tunay na sukat. Ginawa sa Calamaba noong 1887 – 1888",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/prometheus-bound.jpg",
+    title: "Prometheus Bound",
+    material: "Putik",
+    description: "Ibinigay kay Dr. Blumentritt noong 18909 sa Brussels",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/bust-of-felix-pardo-de-tavera.jpg",
+    title: "Bust of Felix Pardo de Tavera",
+    material: "Kahoy",
+    description: "Ginawa sa Paris",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/image-of-virgin-mary.jpg",
+    title: "Image of Virgin Mary",
+    material: "Kahoy",
+    description: "Ginawa sa Ateneo de Manila",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/wild-boar.jpg",
+    title: "Wild Boar",
+    material: "Putik",
+    description: "Ginawa sa Dapitan",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/orate-frantes.jpg",
+    title: "Orate Frantes (let us pray brethren)",
+    material: "Kandila",
+    description: "Ipininta sa La Senda Del Sacrificio ni Alejandro",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/san-antonio-de-padua.jpg",
+    title: "San Antonio de Padua",
+    material: "Putik",
+    description: "Ginawa sa Dapitan",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/bust-of-dr-ricardo-carnicero.jpg",
+    title: "Bust of Dr. Ricardo Carnicero",
+    material: "Putik",
+    description: "Ginawa sa Dapitan noong 1892 – 1893",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/st-paul-the-hermit.jpg",
+    title: "St. Paul the Hermit",
+    material: "Putik",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Ipinagkaloob bilang regalo kay Fr. Pablo Pastells ni Rizal sa Dapitan noong 1893",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/bust-of-augustus-ceasar.jpg",
+    title: "Bust of Augustus Ceasar",
+    material: "Putik",
+    description: "Ipinadala mula sa London kay Dr. Blumentritt noong 1888",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/bust-of-julius-ceasar.jpg",
+    title: "Bust of Julius Ceasar",
+    material: "Putik",
+    description: "Ipinadala mula sa London noong Disyembre 1888",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/biscuit-mold.jpg",
+    title: "Biscuit Mold",
+    material: "Kahoy",
+    description: "Ginawa sa Dapitan noong 1893",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/wooden-platters.jpg",
+    title: "Wooden Platters",
+    material: "Kahoy",
+    description: "Dapitan, 1894 - 1896",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/three-wooden-tops-of-different-sizes.jpg",
+    title: "Three wooden tops of different sizes",
+    material: "Kahoy",
+    description: "Dapitan 1894",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/josephine-sleeping.jpg",
+    title: "Josephine Sleeping",
+    material: "Plaster",
+    description: "Ginawa sa Dapitan noong 1895 – 1896",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/a-bowl-of-a-pipe-representing-a-girls-head.jpg",
+    title: "A bowl of a pipe representing a girl's head",
+    material: "Kahoy",
+    description: "Dapitan",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/two-gate-columns.jpg",
+    title: "Two gate columns (depicting busts)",
+    material: "Kahoy",
+    description:
+      "Ginawa sa Dapitan nang matapos ang serbisyo sa tubig noong 1895",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/bust-of-his-father.jpg",
+    title: "Bust of his Father",
+    material: "Putik",
+    description: "Ginawa sa Calamba, 1881",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/head-of-egyptian.jpg",
+    title: "Head of Egyptian (candle holder)",
+    material: "Plaster",
+    description: "Ginawa sa Hong Kong noong 1892",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/bust-of-mirabeau.jpg",
+    title: "Bust of Mirabeau",
+    material: "Terra Cotta",
+    description: "Ginawa sa Barcelona, inilagay para kay Valentin Ventura",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/a-filipina-girl-doll.jpg",
+    title: "A Filipino Girl Doll",
+    material: "Kahoy",
+    description: "",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/josephines-head.jpg",
+    title: "Josephine’s Head",
+    material: "Putik",
+    description: "Ginawa sa Dapitan",
+  },
+  {
+    src: "https://rizal.raphaelmarco.com/static/files/sculptures/a-marionette-in-a-form-of-a-clown.jpg",
+    title: "A marionette in a form of a clown",
+    material: "Kahoy",
+    description: "Ginawa sa Dapitan, 1894 – 1895",
   },
 ];
 
 export const EtcData = [
   {
-    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
-    title: "A painting on a pair of mother-of-pearl",
-    material: "Oil",
+    src: "https://rizal.raphaelmarco.com/static/files/discoveries/draco-rizali.jpg",
+    title: "Draco Rizali",
+    material: "Reptilya",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Draco Rizali ay isang 'lumilipad na butiki' ng Pilipinas na maaaring lumipad sa hangin.",
   },
   {
-    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
-    title: "A painting on a pair of mother-of-pearl",
-    material: "Oil",
+    src: "https://rizal.raphaelmarco.com/static/files/discoveries/apogania-rizali.jpg",
+    title: "Apogania Rizali",
+    material: "Kulisap",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Ang Apogania Rizali ay isang beetle na pinangalanan ayon sa pambansang bayani ng Pilipinas.",
   },
   {
-    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
-    title: "A painting on a pair of mother-of-pearl",
-    material: "Oil",
+    src: "https://rizal.raphaelmarco.com/static/files/discoveries/rhacophorus-rizali.jpg",
+    title: "Amphibian",
+    material: "Langis",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  },
-  {
-    src: "https://rizal.raphaelmarco.com/static/files/paintings/dapitan-church-curtains.jpg",
-    title: "A painting on a pair of mother-of-pearl",
-    material: "Oil",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Ang Rhacophorus Rizali ay isang uri ng palaka na matatagpuan sa Pilipinas, na pinangalanang ayon sa pambansang bayani nito.",
   },
 ];
+
 export const LiteratureData = [
   {
     title: "Last Poem of Rizal",

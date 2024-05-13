@@ -65,7 +65,7 @@ function Timeline() {
               </motion.h3>
               {/* Wrap description with motion component and apply animation */}
               <motion.p
-                className="!mt-1 !font-normal text-black/60 "
+                className="!mt-1 !font-normal text-black/60 text-justify "
                 initial={{ opacity: 0, y: 20 }}
                 animate={inView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.5, delay: 0.4 }}

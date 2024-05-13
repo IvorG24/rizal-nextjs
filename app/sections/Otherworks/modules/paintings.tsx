@@ -26,7 +26,11 @@ const Paintings = ({ View }: PaintingsProps) => {
             index % 2 === 0 ? (
               <>
                 <motion.div className="col-span-1 p-10">
-                  <img src={item.src} alt="rizal painting" />
+                  <img
+                    className="w-full h-full rounded-xl"
+                    src={item.src}
+                    alt="rizal painting"
+                  />
                 </motion.div>
                 <motion.div className="col-span-2 space-y-4 text-2xl p-10">
                   <div className="flex gap-x-4 items-center">
@@ -50,14 +54,22 @@ const Paintings = ({ View }: PaintingsProps) => {
                   <p>{item.description}</p>
                 </motion.div>
                 <motion.div className="col-span-1 p-10">
-                  <img src={item.src} alt="rizal painting" />
+                  <img
+                    className="w-full h-full rounded-xl"
+                    src={item.src}
+                    alt="rizal painting"
+                  />
                 </motion.div>
               </>
             )
           ) : (
             <>
-              <motion.div className="col-span-1 p-10">
-                <img src={item.src} alt="rizal painting" />
+              <motion.div className="col-span-1 p-10 ">
+                <img
+                  src={item.src}
+                  className="w-ful h-full"
+                  alt="rizal painting"
+                />
               </motion.div>
               <motion.div className="col-span-2 space-y-4 text-2xl text-justify">
                 <div className="flex gap-x-4">

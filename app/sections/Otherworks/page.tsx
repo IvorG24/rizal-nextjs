@@ -2,6 +2,7 @@
 import React from "react";
 import { useSectionInView } from "@/lib/hooks";
 import { Tabs, Tab } from "@nextui-org/tabs";
+import { ScrollShadow } from "@nextui-org/react";
 import Paintings from "./modules/paintings";
 import Sculpture from "./modules/sculpture";
 import Etcworks from "./modules/otherwork";
@@ -42,12 +43,21 @@ function Otherworks() {
             <h1 className="text-2xl font-bold text-center pb-20 text-white">
               Rizal Sculpture
             </h1>
-            <Sculpture View={inView} />
+            <ScrollShadow
+              orientation="vertical"
+              className="w-full max-h-[1000px] "
+              style={{
+                scrollbarWidth: "thin",
+                scrollbarColor: "rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.1)",
+              }}
+            >
+              <Sculpture View={inView} />
+            </ScrollShadow>
           </Tab>
 
           <Tab key="etc" title="Etc">
             <h1 className="text-2xl font-bold text-center pb-20 text-white">
-              Rizal Paintings
+              Rizal other works
             </h1>
             <Etcworks View={inView} />
           </Tab>

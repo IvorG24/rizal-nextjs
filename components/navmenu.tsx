@@ -76,7 +76,7 @@ const NavMenu = () => {
             <>
               <div key={index} className="flex flex-col gap-10 py-4">
                 <Link
-                  className="text-4xl text-yellow-500 hover:text-white  "
+                  className="text-4xl text-yellow-500 hover:text-white "
                   href={item.hash}
                   onClick={toggleDrawer}
                 >

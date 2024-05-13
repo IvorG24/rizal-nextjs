@@ -18,7 +18,7 @@ const BookModal = ({ open, close, description, title }: bookProps) => {
   return (
     <>
       <Modal
-        className="bg-yellow-200 fixed top-44 m-4 text-black"
+        className="bg-yellow-200 fixed top-28 m-4 text-black"
         isOpen={open}
         onClose={close}
       >

@@ -37,7 +37,7 @@ const AccordionItem = ({ header, text }: AccordionItemProps) => {
         transition={{ duration: 0.3 }} // Adjust transition duration as needed
         style={{ overflow: "hidden" }}
       >
-        <p className="py-3 text-sm lg:text-md leading-relaxed text-body-color text-black/70">
+        <p className="py-3 text-sm lg:text-md leading-relaxed text-body-color text-black/70 text-justify">
           {text}
         </p>
       </motion.div>

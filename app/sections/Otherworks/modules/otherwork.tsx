@@ -26,13 +26,17 @@ const Etcworks = ({ View }: EtcProps) => {
             index % 2 === 0 ? (
               <>
                 <motion.div className="col-span-1 p-10">
-                  <img src={item.src} alt="rizal painting" />
+                  <img
+                    className="w-full h-full rounded-xl"
+                    src={item.src}
+                    alt="rizal painting"
+                  />
                 </motion.div>
                 <motion.div className="col-span-2 space-y-4 text-2xl p-10">
                   <div className="flex gap-x-4 items-center">
                     <h1 className="font-bold ">{item.title}</h1>
                     <h1 className="border-yellow-500 border-3 px-4 py-1 rounded-full">
-                      Material : {item.material}
+                      Animal : {item.material}
                     </h1>
                   </div>
                   <p>{item.description}</p>
@@ -50,14 +54,22 @@ const Etcworks = ({ View }: EtcProps) => {
                   <p>{item.description}</p>
                 </motion.div>
                 <motion.div className="col-span-1 p-10">
-                  <img src={item.src} alt="rizal painting" />
+                  <img
+                    className="w-full h-full rounded-xl"
+                    src={item.src}
+                    alt="rizal painting"
+                  />
                 </motion.div>
               </>
             )
           ) : (
             <>
               <motion.div className="col-span-1 p-10">
-                <img src={item.src} alt="rizal painting" />
+                <img
+                  className="w-full h-full rounded-xl"
+                  src={item.src}
+                  alt="rizal painting"
+                />
               </motion.div>
               <motion.div className="col-span-2 space-y-4 text-2xl text-justify">
                 <div className="flex gap-x-4">
